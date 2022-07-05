@@ -1,0 +1,15 @@
+.nav {
+  background: #8b61e3;
+  padding: 3px 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    color: #fff;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
