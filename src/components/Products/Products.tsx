@@ -9,14 +9,14 @@ const Products = () => {
       title: "This is the Beautiful landscape Ever!!!",
       description:
         "This is a cool cube that can help you kill boredom at all times.",
-      price: "$ 15",
+      price: "R15",
     },
 
     {
       image: "https://picsum.photos/536/354.jpg?random=1",
       title: "This is the greatest ball of all",
       description: "This ball helps people to have fun all the time.",
-      price: "$ 20",
+      price: "R 20",
     },
   ];
   return (

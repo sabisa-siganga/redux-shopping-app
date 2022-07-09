@@ -1,0 +1,64 @@
+.first-part {
+  display: flex;
+
+  .shopping-fee {
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin-top: 50px;
+    width: 950px;
+    height: 143px;
+    margin-left: 41px;
+    border-radius: 5px;
+    box-shadow: 6px 4px 2px #ddd;
+
+    .border {
+      background-color: #ebf7f5;
+      width: 886px;
+      height: 92px;
+      margin-top: 26px;
+      margin-left: 27px;
+      border-radius: 5px;
+      h4 {
+        font-size: 21px;
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 50px;
+      }
+      p {
+        font-size: 15px;
+        padding-left: 50px;
+      }
+    }
+  }
+  .item-summary {
+    h1 {
+      margin-left: 41px;
+    }
+    .table {
+      border-bottom: 1px solid #ddd;
+      width: 100%;
+      padding-bottom: 14px;
+      margin-right: 0px;
+      th {
+        input {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+  .order {
+    flex-grow: 1;
+    background-color: #fff;
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: 51px;
+    margin-left: 27px;
+    margin-right: 121px;
+    padding-top: 23px;
+    padding-left: 25px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 6px 4px 2px #ddd;
+  }
+}

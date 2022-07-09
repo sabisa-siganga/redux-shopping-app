@@ -6,18 +6,40 @@ const CheckOut = () => {
   return (
     <div>
       <Navbar hideCart />
-      <div className="shopping-fee">
-        <h4>Shipping fee</h4>
-        <p>Buy $59 more to enjoy FREE STANDARD SHIPPING</p>
-      </div>
-      <div className="item-summary">
-        <h1>Item Summary</h1>
-        <ul>
-          <li>Item</li>
-          <li>Price</li>
-          <li>Qty</li>
-          <li>Total</li>
-        </ul>
+
+      <div className="first-part">
+        {/* left */}
+        <div>
+          <div className="shopping-fee">
+            <div className="border">
+              <h4>Shipping fee</h4>
+              <p>Buy R59 more to enjoy FREE STANDARD SHIPPING</p>
+            </div>
+          </div>
+          <div className="item-summary">
+            <h1>Item Summary</h1>
+            <table className="table">
+              <tr>
+                <th>
+                  <input className="input" type="checkbox" />
+                  All
+                </th>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        {/* right */}
+
+        <div className="order">
+          <span>Order Summary</span>
+          <h4>Subtotal</h4>
+          <p>R249</p>
+        </div>
       </div>
     </div>
   );
