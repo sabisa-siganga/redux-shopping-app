@@ -27,7 +27,10 @@ const Item = (props: Props) => {
 
   return (
     <div className="single-item">
-      <img src={image} alt="" />
+      <div className="single-item-image">
+        <img src={image} alt="" />
+      </div>
+
       <div className="paraphs">
         <h4>{title}</h4>
         <p>{description}</p>
