@@ -4,20 +4,20 @@ import Cart from "../Cart/Cart";
 import "./Navbar.scss";
 
 interface Props {
-  hideCart?: boolean;
+	hideCart?: boolean;
 }
 
 export const Navbar = (props: Props) => {
-  const { hideCart } = props;
-  return (
-    <div className="nav">
-      <h1>
-        <Link to="/">Redux Shopping Cart</Link>
-      </h1>
+	const { hideCart } = props;
+	return (
+		<div className="nav">
+			<h1>
+				<Link to="/">Mug & Juice</Link>
+			</h1>
 
-      {!hideCart && <Cart />}
-    </div>
-  );
+			{!hideCart && <Cart />}
+		</div>
+	);
 };
 
 Navbar.defaultProps = { hideCart: false };
